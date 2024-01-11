@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+.imageBox{
+    border: 2px solid red;
+  
+}
+.imageBox input[type="file"]{
+    display: none;
+  }
+  .upload__image-wrapper{
+  display: flex;
+    column-gap: 10px;
+  }
+  .upload__image-wrapper img{
+    aspect-ratio: 1;
+  }
